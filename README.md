@@ -109,6 +109,5 @@ Follow the steps below to run the application:
 4. Learned to optimize image storage and retrieval using Redis.
 5. Mastered implementing face recognition and matching techniques using AI models.
 
-## Thank You
-We express our heartfelt gratitude to everyone who guided and supported us throughout the development of the Face Recognition and Matching System. Your contributions have been invaluable in making this project a success.
+
 
