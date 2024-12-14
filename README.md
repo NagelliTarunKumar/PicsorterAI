@@ -1,6 +1,6 @@
 # AI Photo Management System (Pic Sorter AI)
 
-Face Recognition and Matching System is a web application designed to streamline the process of organizing and retrieving photos using advanced AI techniques. Users can upload photos to identify faces and find matching images from their gallery. The application uses a combination of powerful tools and frameworks for efficient image processing and data management.
+AI Photo Management System (Pic Sorter AI) is a web application designed to streamline the process of organizing and retrieving photos using advanced AI techniques. Users can upload photos to identify faces and find matching images from their gallery. The application uses a combination of powerful tools and frameworks for efficient image processing and data management.
 
 ![ Design](backend/design.png)
 
