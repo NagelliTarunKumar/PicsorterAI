@@ -1,0 +1,33 @@
+FROM python:3.10
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    cmake \
+    g++ \
+    libopenblas-dev \
+    liblapack-dev \
+    libx11-dev \
+    python3-venv \
+    && apt-get clean
+
+# # Ensure pip is installed and upgraded
+# RUN python3 -m ensurepip --upgrade \
+#     && python3 -m pip install --upgrade pip
+
+# Copy the Python application
+COPY . /app/source_code
+
+RUN python3 -m pip uninstall google-cloud -y
+# Install dependencies
+RUN python3 -m pip install --no-cache-dir google-cloud google-cloud-storage scipy face_recognition numpy requests
+
+RUN python3 -c "import google.cloud; print('google-cloud-storage installed')"
+
+# Debugging step: List installed Python packages
+RUN python3 -m pip freeze
+
+
+# CMD ["python3", "/app/source_code/facedetection.py"]

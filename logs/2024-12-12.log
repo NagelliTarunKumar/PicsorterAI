@@ -1,0 +1,12 @@
+[2024-12-12 14:07:28] INFO: [Backend-Node] Server running on port 3001
+[2024-12-12 14:07:36] INFO: [Frontend] Fetching recent images from Redis...
+[2024-12-12 14:07:36] INFO: [Frontend] Fetching photos from the backend...
+[2024-12-12 14:07:36] INFO: [Backend-Node] Fetched image URLs from bucket successfully.
+[2024-12-12 14:07:36] INFO: [Frontend] Fetched photos successfully
+[2024-12-12 14:07:43] INFO: [Backend-Node] Fetched image URLs from bucket successfully.
+[2024-12-12 14:07:47] INFO: [Backend-Node] Fetched image URLs from bucket successfully.
+[2024-12-12 14:18:09] ERROR: [Backend-Node] Error fetching recent images from Redis: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+[2024-12-12 14:18:09] ERROR: [Backend-Node] Error fetching recent images from Redis: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+[2024-12-12 14:18:09] ERROR: [Backend-Node] Error fetching recent images from Redis: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+[2024-12-12 14:18:09] ERROR: [Backend-Node] Error fetching recent images from Redis: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+[2024-12-12 14:18:09] ERROR: [Frontend] Error fetching recent images from Redis

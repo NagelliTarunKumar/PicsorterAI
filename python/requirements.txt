@@ -1,0 +1,4 @@
+google-cloud-storage
+scipy
+face_recognition
+numpy

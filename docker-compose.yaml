@@ -1,0 +1,55 @@
+version: "3.11"
+
+services:
+  frontend:
+    build:
+      context: .  # Use the root directory as the build context
+      dockerfile: dockerfile  # Dockerfile is in the root directory
+    ports:
+      - "3000:3000"
+    # environment:
+    #   - REACT_APP_API_URL=http://backend:3001  # Use backend service name for API calls
+    depends_on:
+      - backend
+    networks:
+      - backend_network
+
+  backend:
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/vision-api-key.json
+      - REDIS_HOST=redis   # Ensure backend uses this to connect to Redis
+    build:
+      context: ./backend
+      dockerfile: dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/usr/src/app
+      - ./vision-api-key.json:/app/vision-api-key.json # Mount credentials
+      - ./python:/app/source_code
+    depends_on:
+      - python
+      - redis  # Added dependency on Redis
+    networks:
+      - backend_network  # Make sure backend is connected to the same network
+
+  python:
+    build:
+      context: ./python
+      dockerfile: dockerfile
+    volumes:
+      - ./python:/app/source_code
+      - ./vision-api-key.json:/app/vision-api-key.json # Mount credentials
+    networks:
+      - backend_network  # Ensure Python service is on the same network
+    
+  redis:
+    image: "redis:alpine"  # Using Redis official image
+    ports:
+      - "6379:6379"  # Expose Redis default port
+    networks:
+      - backend_network  # Redis should be on the same network
+
+networks:
+  backend_network:
+    driver: bridge  # Ensure all services are using this network

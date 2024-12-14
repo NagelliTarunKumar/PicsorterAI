@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aiphotomanagementplatform",
+  "private_key_id": "d09a05913d4e97608219e0c4ac8376b09839c52d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQ7bAjPUt4t0uM\nYRE7FN2b5rQaDP8l/dNx6xX/Z7yY/OtIG6aKzPkfGYsdoyG4VlJvgHlWjrDDYBdq\nH83v9EJXsuoWglXEnoRJfN0w+v1lnLm5HCGMAUe/sk1g7TXVPIovDKfY4myCjkjj\n8W44wN7kiT60IGmlAMMdqwc+v9Lzic4ZyccwduYG432kN8BoQfg54755bUokT4Yb\n7MuirH+74KtSEAqK5pKYhDjha7ZjKHWwhT+k+hrlrErrPwcAsZ3RZOpFROXAr4M1\nILb/YU5CPcC6WMw3z0bIVvyEUL/OLXFhCPIckvMNBAFIi9Sd7q5/m4J2MX761iYG\nFc4U2uIjAgMBAAECggEAJy+tja59bVLTtKywEqjDN+55cTlm0bVd50v0gEbwtLEb\nYBbvkbEIOLENyq1CMdTe+VLbb0SsGrj3K0xzz8G8f75q8XXYqFwi67WjtwAcbuaK\nXxHLqPrEfkvu/3L+WdRVBqYVBTTSrVoKidZKmhJyu+KSBC7gIbaW4gWmAjrwUgT8\nBBU+FxsBlRetmeyeGs1Z1i9SFV0sni5f5VLunp/O61ordYsJ16iGqDoZ3NvDVcBc\naVgLwqDXDbXebVarDXT44cSsmuQ2RmwKQixzzCEDqRFk+6cPeJSMaFNzJq+wfZaY\nfevDfbpVZLDP5vEMKz5hNX7nmxf9DNo4JlfVLEpdQQKBgQDqSbWsCpV2zVUhJg5W\nWUhlwydLhVBDt2zqjpmPNXwDp36MJj++FFTcM3cOWsoMyd447FTN2pCB5Mn68q+V\nzw2/DDsDqIZI65NIZ4ECV3cHBZZWWoN/tzQukKxLGMNwzQ5+7oXCw5QqoiDdqkrj\nkp82VcxPq6jprI9OWJVzjfH6SwKBgQDkSliJ2syCohRC974dgx12u4XgvKWbI+4P\nhUTTQvxi2vZufBGfoUGGD7rmPInVOD6c3cE1K95GT4GB+J7t0UEahubKNsLA7rhq\nKImr+t8JTAssdL39yRTzdhDrsKMRlMIvFV7q1r/nrXx+WAG7DkGhkbCaIe4haMiH\nhoOyKZ3QiQKBgQCTrORbTcyKNsDrBQ7SdLKCmjEBlEVUeaCodDvsnbzOnNvSQSW6\njRw0NCheHvHuf6uX27dUjei6R1jc2e29EubKPk5QbwA9pGeQotUZgcIf5fCt+52Z\negPlOgGv0CsYxdfWQEiFzDtvaAQpVHah3UCHwirnKP9uUvt9Wa7SSG124wKBgQC6\nuEBQiKALHMwbtgxOkSYxLdGjbki5aprVIPiZHsnVhShYV6wGd1tjbkw88jj+J2G2\n5f2YIshLk83mY1aCR0vLiZkMvdtu+BHn6j4oZymzrfnZo6aeA7DaLLBMRg4qXBSz\nc/RNedY+hPw1ToAj4dY2czYR6zydINobVx8yQq2smQKBgHWLk9twZhV+B4n1w/nC\nVtb/d4PhLN44IHd+50+oSl/A8FWAaB2KJsOOu9v74mhFsAFw90t3s2YIPdmhgrtV\nEBtpeErzvjOsb2yxse7iH2TSkEn03bPE0UfYq49egde4F5G888Wh6k+zto29SXZU\neigo/L7hlUXOCsSNuFgewmiw\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision-api-user-885@aiphotomanagementplatform.iam.gserviceaccount.com",
+  "client_id": "102032116338747604387",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision-api-user-885%40aiphotomanagementplatform.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
